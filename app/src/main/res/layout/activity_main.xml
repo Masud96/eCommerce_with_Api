@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    app:layoutDescription="@xml/activity_main_scene"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10mdp"
+        android:background="@color/blue_900"
+        android:padding="@dimen/_10mdp"
+        android:text="Admin Control"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_30font_mdp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_margin="@dimen/_10mdp">
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/noticeGallery"
+            android:layout_width="@dimen/_120mdp"
+            android:layout_height="@dimen/_100mdp"
+            android:layout_margin="@dimen/_10mdp"
+            app:cardBackgroundColor="@color/blue_900"
+            app:cardCornerRadius="@dimen/_10mdp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="@dimen/_50mdp"
+                    android:layout_height="@dimen/_50mdp"
+                    android:layout_marginTop="@dimen/_10mdp"
+                    android:background="@drawable/image_bg"
+                    android:padding="@dimen/_5mdp"
+                    android:src="@drawable/ic_notification" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1mdp"
+                    android:layout_marginTop="@dimen/_5mdp"
+                    android:background="@color/red_900" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_4mdp"
+                    android:gravity="center_horizontal"
+                    android:text="Notice"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_20font_mdp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/deleteNoticeId"
+            android:layout_width="@dimen/_120mdp"
+            android:layout_height="@dimen/_100mdp"
+            android:layout_margin="@dimen/_10mdp"
+            app:cardBackgroundColor="@color/blue_900"
+            app:cardCornerRadius="@dimen/_10mdp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="@dimen/_50mdp"
+                    android:layout_height="@dimen/_50mdp"
+                    android:layout_marginTop="@dimen/_10mdp"
+                    android:background="@drawable/image_bg"
+                    android:padding="@dimen/_5mdp"
+                    android:src="@drawable/ic_notification" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1mdp"
+                    android:layout_marginTop="@dimen/_5mdp"
+                    android:background="@color/red_900" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_4mdp"
+                    android:gravity="center_horizontal"
+                    android:text=" Delete Notice"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_14font_mdp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_margin="@dimen/_10mdp">
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/uploadImageCard"
+            android:layout_width="@dimen/_120mdp"
+            android:layout_height="@dimen/_100mdp"
+            android:layout_margin="@dimen/_10mdp"
+            app:cardBackgroundColor="@color/blue_900"
+            app:cardCornerRadius="@dimen/_10mdp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="@dimen/_50mdp"
+                    android:layout_height="@dimen/_50mdp"
+                    android:layout_marginTop="@dimen/_10mdp"
+                    android:background="@drawable/image_bg"
+                    android:padding="@dimen/_5mdp"
+                    android:src="@drawable/ic_notification" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1mdp"
+                    android:layout_marginTop="@dimen/_5mdp"
+                    android:background="@color/red_900" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_4mdp"
+                    android:gravity="center_horizontal"
+                    android:text="Upload Image"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_14font_mdp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/showGalleryImage"
+            android:layout_width="@dimen/_120mdp"
+            android:layout_height="@dimen/_100mdp"
+            android:layout_margin="@dimen/_10mdp"
+            app:cardBackgroundColor="@color/blue_900"
+            app:cardCornerRadius="@dimen/_10mdp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="@dimen/_50mdp"
+                    android:layout_height="@dimen/_50mdp"
+                    android:layout_marginTop="@dimen/_10mdp"
+                    android:background="@drawable/image_bg"
+                    android:padding="@dimen/_5mdp"
+                    android:src="@drawable/ic_gallery" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1mdp"
+                    android:layout_marginTop="@dimen/_5mdp"
+                    android:background="@color/red_900" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_4mdp"
+                    android:gravity="center_horizontal"
+                    android:text="Show Gallery"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_14font_mdp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+
+</LinearLayout>
