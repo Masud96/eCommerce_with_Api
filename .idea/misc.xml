@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Masud/AndroidStudioProjects/MyProject/app/src/main/res/drawable/delete_btn_bg.xml" value="0.1765" />
+        <entry key="..\:/Users/Masud/AndroidStudioProjects/MyProject/app/src/main/res/drawable/ic_add_photo_alternative.xml" value="0.206" />
+        <entry key="..\:/Users/Masud/AndroidStudioProjects/MyProject/app/src/main/res/drawable/ic_avatar.xml" value="0.1765" />
+        <entry key="..\:/Users/Masud/AndroidStudioProjects/MyProject/app/src/main/res/drawable/image_bg.xml" value="0.138" />
+        <entry key="..\:/Users/Masud/AndroidStudioProjects/MyProject/app/src/main/res/drawable/upload_image_color.xml" value="0.12" />
+        <entry key="..\:/Users/Masud/AndroidStudioProjects/MyProject/app/src/main/res/layout/activity_delete_notice.xml" value="0.259375" />
+        <entry key="..\:/Users/Masud/AndroidStudioProjects/MyProject/app/src/main/res/layout/activity_gallery.xml" value="0.264" />
+        <entry key="..\:/Users/Masud/AndroidStudioProjects/MyProject/app/src/main/res/layout/activity_main.xml" value="0.259375" />
+        <entry key="..\:/Users/Masud/AndroidStudioProjects/MyProject/app/src/main/res/layout/activity_notice.xml" value="0.259375" />
+        <entry key="..\:/Users/Masud/AndroidStudioProjects/MyProject/app/src/main/res/layout/activity_upload_image.xml" value="0.259375" />
+        <entry key="..\:/Users/Masud/AndroidStudioProjects/MyProject/app/src/main/res/layout/image_layout_gallery.xml" value="0.259375" />
+        <entry key="..\:/Users/Masud/AndroidStudioProjects/MyProject/app/src/main/res/layout/notice_sample_layout.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
